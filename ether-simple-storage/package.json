@@ -1,0 +1,16 @@
+{
+  "name": "ether-simple-storage",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "compile": "solcjs --bin --abi --include node_modules --base-path . -o ./bin main.sol",
+    "deploy": "node deploy.js"
+  },
+  "dependencies": {
+    "ethers": "^6.0.4",
+    "fs-extra": "^11.1.0",
+    "solc": "0.8.7-fixed",
+    "text-encoding": "^0.7.0"
+  }
+}
