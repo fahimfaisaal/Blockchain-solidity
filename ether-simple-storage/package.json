@@ -8,7 +8,8 @@
     "deploy": "node deploy.js"
   },
   "dependencies": {
-    "ethers": "^6.0.4",
+    "dotenv": "^16.0.3",
+    "ethers": "5.4",
     "fs-extra": "^11.1.0",
     "solc": "0.8.7-fixed",
     "text-encoding": "^0.7.0"
